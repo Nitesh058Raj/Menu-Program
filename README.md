@@ -1,7 +1,8 @@
 # Menu-Program
 
-A simple python based menu program:
+A simple Python-based menu program:
+
 ![Alt text](Resources/image.png)
 
-Still in process...
+Still in the process...
 Improving day by day
