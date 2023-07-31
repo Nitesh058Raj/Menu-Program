@@ -11,7 +11,7 @@ def list_docker_containers():
 
 def run_ansible_playbook():
     playbook = input("Enter playbook name: ")
-    os.system("ansible-playbook" + playbook)
+    os.system("ansible-playbook " + playbook)
 
 
 def view_disk_space():

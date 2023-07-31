@@ -29,13 +29,12 @@ def clearScreen():
     os.system("clear")
 
 
-def printTitle():
-    global title
+def printTitle(text):
 
     print("+" + 32 * "-" + "+")
     print("|" + 32 * " " + "|")
-    print("|" + ((33 - len(title)) // 2) * " " +
-          title + ((33 - len(title)) // 2) * " " + "|")
+    print("|" + ((33 - len(text)) // 2) * " " +
+          text + ((33 - len(text)) // 2) * " " + "|")
     print("|" + 32 * " " + "|")
     print("+" + 32 * "-" + "+")
 
@@ -45,7 +44,7 @@ def printMenu():
     global menu
 
     clearScreen()
-    printTitle()
+    printTitle(title)
     for i in menu:
         print(i)
 
